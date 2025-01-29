@@ -5,4 +5,4 @@ RUN npm install
 COPY . .
 EXPOSE 8080
 
-ENTRYPOINT [ "executable" ]["node", "server.js"]
+CMD ["node", "server.js"]
